@@ -3,11 +3,11 @@
 ## Usage
 1. Clone file to ./ee6470 folder (Git Bash)
 ```properties
-git clone https://github.com/wine10001/EE6470_hw3/Q1
+git clone https://github.com/wine10001/EE6470_hw3
 ```
 2. Source the setup file
 ```properties
-cd stratus
+cd EE6470_hw3/Q1/stratus
 ```
 ```properties
 source /usr/cadtool/user_setup/01-cadence_license_set.cshset
