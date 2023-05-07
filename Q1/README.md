@@ -1,16 +1,18 @@
-## Double Filter Implementation Using Status HLS
+## Median and Mean Filter Implementation Using Status HLS
 
 ## Usage
-1. Clone the file to ./ee6470 folder (Git Bash)
+1. Clone file to ./ee6470 folder (Git Bash)
 ```properties
-git clone https://github.com/wine10001/EE6470_hw3.git double_stratus
+git clone https://github.com/wine10001/EE6470_hw3/Q1
 ```
 2. Source the setup file
 ```properties
 cd stratus
 ```
 ```properties
-source staratus_env.sh
+source /usr/cadtool/user_setup/01-cadence_license_set.cshset
+source /usr/cad/cadence/cic_setup/stratus.cshrc
+source /usr/cadtool/user_setup/03-xcelium.csh
 ```
 3. Go to stratus directory
 ```properties
@@ -24,12 +26,4 @@ make sim_B
 ```properties
 make sim_V_BASIC
 ```
-6. Run HLS synthesis and Verilog simulation (Loop Unrolling)
-```properties
-make sim_V_FLAT_UNROLL_ALL_FAST
-```
-7. Run HLS synthesis and Verilog simulation (Loop Pipelining)
-(Don't comment out Line 12-14 in DoubleFilter.cpp)
-```properties
-make sim_V_PIPELINE
-```
+
