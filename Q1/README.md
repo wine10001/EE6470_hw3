@@ -7,16 +7,13 @@ git clone https://github.com/wine10001/EE6470_hw3
 ```
 2. Source the setup file
 ```properties
-cd EE6470_hw3/Q1/stratus
-```
-```properties
 source /usr/cadtool/user_setup/01-cadence_license_set.cshset
 source /usr/cad/cadence/cic_setup/stratus.cshrc
 source /usr/cadtool/user_setup/03-xcelium.csh
 ```
 3. Go to stratus directory
 ```properties
-cd stratus
+cd EE6470_hw3/Q1/stratus
 ```
 4. Run SystemC-based behavioural simulation
 ```properties
